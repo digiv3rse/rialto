@@ -2,9 +2,9 @@ name: deploy main branch
 env:
   VERCEL_ORG_ID: ${{ secrets.TEAM_ID }}
 on:
+  workflow_dispatch:
   push:
-    tags:
-      - '*'
+    branch: ['main']
 
 jobs:
   Deploy-Production:
