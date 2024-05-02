@@ -1,4 +1,4 @@
-### Listing
+## Listing
 
 Reservoir aggregates different NFT exchange protocols, allowing you to access them all through a single, simplified interface. All supported protocols have undergone extensive audits:
 
